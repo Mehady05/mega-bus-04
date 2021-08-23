@@ -50,8 +50,8 @@ const calculateTotal = ()=>{
 
 const getInputValue = (classes)=>{
      const firstClassValue = document.getElementById(classes+'_value');
-    const parseFirstClassValue = parseInt(firstClassValue.value);
-    return parseFirstClassValue;
+    const parseFirstEcoClassValue = parseInt(firstClassValue.value);
+    return parseFirstEcoClassValue;
 }
 // for economic class
 
