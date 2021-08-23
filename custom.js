@@ -15,10 +15,10 @@ function handleTwoItems(classes, isIncrease){
     }
    getValue.value = newCount;
     let total = 0;
-    if(classes === "first"){
+    if(classes +'_value' === "first_value"){
         total = newCount * 150;
     }
-    else if(classes == 'eco'){
+    else if(classes +'_value'=== 'eco_value'){
         total = newCount * 100;
     }
    const totalTaka = document.getElementById(classes+'_taka').innerText =`$`+total;
